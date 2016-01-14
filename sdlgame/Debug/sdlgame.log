@@ -1,0 +1,24 @@
+﻿Build started 26/03/2015 16:50:25.
+     1>Project "\\bournemouth.ac.uk\data\Student\Home\DEC\i7675907\visual studio 2010\Projects\sdlgame\sdlgame\sdlgame.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\sdlgame.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"\\bournemouth.ac.uk\data\student\home\dec\i7675907\visual studio 2010\Projects\sdlgame\Debug\sdlgame.exe" /NOLOGO SDL2.lib SDL2main.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\sdlgame.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"\\bournemouth.ac.uk\data\student\home\dec\i7675907\visual studio 2010\Projects\sdlgame\Debug\sdlgame.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"\\bournemouth.ac.uk\data\student\home\dec\i7675907\visual studio 2010\Projects\sdlgame\Debug\sdlgame.lib" /MACHINE:X86 Debug\main.obj
+     1>main.obj : error LNK2019: unresolved external symbol _SDL_Quit referenced in function _SDL_main
+     1>main.obj : error LNK2019: unresolved external symbol _SDL_Delay referenced in function _SDL_main
+     1>main.obj : error LNK2019: unresolved external symbol _SDL_RenderPresent referenced in function _SDL_main
+     1>main.obj : error LNK2019: unresolved external symbol _SDL_RenderClear referenced in function _SDL_main
+     1>main.obj : error LNK2019: unresolved external symbol _SDL_SetRenderDrawColor referenced in function _SDL_main
+     1>main.obj : error LNK2019: unresolved external symbol _SDL_CreateRenderer referenced in function _SDL_main
+     1>main.obj : error LNK2019: unresolved external symbol _SDL_CreateWindow referenced in function _SDL_main
+     1>main.obj : error LNK2019: unresolved external symbol _SDL_Init referenced in function _SDL_main
+     1>MSVCRTD.lib(crtexew.obj) : error LNK2019: unresolved external symbol _WinMain@16 referenced in function ___tmainCRTStartup
+     1>\\bournemouth.ac.uk\data\student\home\dec\i7675907\visual studio 2010\Projects\sdlgame\Debug\sdlgame.exe : fatal error LNK1120: 9 unresolved externals
+     1>Done Building Project "\\bournemouth.ac.uk\data\Student\Home\DEC\i7675907\visual studio 2010\Projects\sdlgame\sdlgame\sdlgame.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.20

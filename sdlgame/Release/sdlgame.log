@@ -1,0 +1,26 @@
+﻿Build started 26/03/2015 16:47:28.
+     1>Project "\\bournemouth.ac.uk\data\Student\Home\DEC\i7675907\visual studio 2010\Projects\sdlgame\sdlgame\sdlgame.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "\\bournemouth.ac.uk\data\student\home\dec\i7675907\visual studio 2010\Projects\sdlgame\Release\".
+       InitializeBuildStatus:
+         Creating "Release\sdlgame.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"\\bournemouth.ac.uk\data\student\home\dec\i7675907\visual studio 2010\Projects\sdlgame\Release\sdlgame.exe" /NOLOGO SDL2.lib SDL2main.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\sdlgame.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"\\bournemouth.ac.uk\data\student\home\dec\i7675907\visual studio 2010\Projects\sdlgame\Release\sdlgame.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"\\bournemouth.ac.uk\data\student\home\dec\i7675907\visual studio 2010\Projects\sdlgame\Release\sdlgame.lib" /MACHINE:X86 Release\main.obj
+     1>main.obj : error LNK2001: unresolved external symbol _SDL_Init
+     1>main.obj : error LNK2001: unresolved external symbol _SDL_CreateWindow
+     1>main.obj : error LNK2001: unresolved external symbol _SDL_RenderPresent
+     1>main.obj : error LNK2001: unresolved external symbol _SDL_SetRenderDrawColor
+     1>main.obj : error LNK2001: unresolved external symbol _SDL_Delay
+     1>main.obj : error LNK2001: unresolved external symbol _SDL_RenderClear
+     1>main.obj : error LNK2001: unresolved external symbol _SDL_CreateRenderer
+     1>main.obj : error LNK2001: unresolved external symbol _SDL_Quit
+     1>MSVCRT.lib(crtexew.obj) : error LNK2001: unresolved external symbol _WinMain@16
+     1>\\bournemouth.ac.uk\data\student\home\dec\i7675907\visual studio 2010\Projects\sdlgame\Release\sdlgame.exe : fatal error LNK1120: 9 unresolved externals
+     1>Done Building Project "\\bournemouth.ac.uk\data\Student\Home\DEC\i7675907\visual studio 2010\Projects\sdlgame\sdlgame\sdlgame.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.22
